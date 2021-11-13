@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TeacherRejister" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b4204e97-d460-40f2-b69a-b3a24c392813">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="802" height="50" uuid="31d12d19-da28-46eb-8f2c-c89e58f30c13"/>
+				<textElement textAlignment="Center">
+					<font size="29" isBold="true"/>
+				</textElement>
+				<text><![CDATA[R/ Gankanda Central College]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="256" y="47" width="271" height="22" uuid="2799c469-65de-404a-8697-6b0868b14997"/>
+				<textElement textAlignment="Left">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher Rejistration Form]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="308" splitType="Stretch">
+			<staticText>
+				<reportElement x="55" y="31" width="130" height="21" uuid="dc9506fa-3fd5-4eee-8bb4-c937121ede70"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher First Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="184" y="32" width="618" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="66950da8-ea90-459c-8085-3e292123f4ae"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="184" y="72" width="618" height="20" backcolor="rgba(255, 255, 255, 0.0)" uuid="b126cc8b-760c-4593-a1a0-c0f801124cb3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="-6" width="151" height="22" uuid="b61718f1-2d9c-4820-93a2-ad21a7eb1a26"/>
+				<textElement textAlignment="Left">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="55" y="72" width="130" height="21" uuid="ab8fc744-ab53-4bb6-9ec7-671217ea49a7"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher Last Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="185" y="113" width="622" height="20" backcolor="rgba(255, 255, 255, 0.0)" uuid="87be9124-8dad-42fa-90ae-5e29a6cfd86a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="58" y="116" width="130" height="21" uuid="40557b48-480c-4142-b350-7ab5315c90d0"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Teacher Last Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="492" y="153" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="75fa5967-862f-4333-b95d-a991956a40e1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="412" y="153" width="80" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="a5604312-8013-4dcb-9243-34c3bc9197f1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="378" y="153" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="601fbacc-fbaf-445a-b3b2-2f509f68352f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="433" y="155" width="59" height="16" uuid="5dfc75b2-02b6-43a5-ad23-581bd88d916d"/>
+				<text><![CDATA[Muslim]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="185" y="153" width="79" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="9a2d0b5f-27ac-4524-934d-2394133445ce"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="197" y="155" width="59" height="16" uuid="78c2f5ce-140f-47e8-be28-9a556a60ce64"/>
+				<text><![CDATA[Buddhism]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="370" y="192" width="25" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="a3a7c23d-35f9-4fd9-9cd3-ba1306fcafd4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="208" y="197" width="35" height="19" uuid="e6cd3d36-3e4c-4aa6-ad62-b5e359ae4def"/>
+				<text><![CDATA[Male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="192" width="58" height="21" uuid="7a3fb576-80ce-4a60-84ed-0c7fba7287a2"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="184" y="192" width="71" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="e01e3fe9-978c-4884-9200-ae390980926f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="298" y="153" width="80" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="7a5060ac-73f2-42c5-9a1d-fd02dc0c811c"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="116" y="154" width="58" height="21" uuid="e3bcad47-a652-401d-9f6f-0e11c2e5aaa6"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Religion :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="264" y="153" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="69c6f633-185e-4d37-bb2a-4985775329a4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="327" y="155" width="59" height="16" uuid="602c4a89-c525-46a0-b206-636a0c805970"/>
+				<text><![CDATA[Tamil]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="300" y="192" width="70" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="954eec43-a475-4d50-b237-8d775bb0c9cc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="305" y="197" width="45" height="19" uuid="50c32c2b-030a-49d9-a2c9-dad82b6496bb"/>
+				<text><![CDATA[Female]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="255" y="192" width="25" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="2fd68335-2645-4949-9d39-acd8737af859"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="110" y="275" width="65" height="21" uuid="ef967381-23a4-49c4-a7a2-bf62545c98e4"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="185" y="272" width="403" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="389cbd42-ae3f-4840-9ec0-cd4ab43b298d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="185" y="235" width="128" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="21e2f33d-fe2d-4667-9b45-8f1d4a95c910"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="95" y="235" width="84" height="21" uuid="23645980-2cca-4354-8be0-280f7fbb36a2"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[T.P. Number :-]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

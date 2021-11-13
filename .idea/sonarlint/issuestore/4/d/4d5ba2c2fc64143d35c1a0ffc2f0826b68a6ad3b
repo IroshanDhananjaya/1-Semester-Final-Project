@@ -1,0 +1,56 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(—ı„ùÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(´ÿÌÕ
+J
+java:S3740"/Provide the parametrized type for this generic.(¿ÈÈÜùÿÿÿÿ
+J
+java:S3740 "/Provide the parametrized type for this generic.(ŸñÁùÿÿÿÿ
+J
+java:S3740!"/Provide the parametrized type for this generic.(İ±•Şüÿÿÿÿ
+J
+java:S3740""/Provide the parametrized type for this generic.(áßæ¼ùÿÿÿÿ
+E
+java:S3740$"/Provide the parametrized type for this generic.(Ş¡š¨
+—
+java:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Š£¬
+M
+java:S1172G"2Remove this unused method parameter "actionEvent".(ÒŠ¥òùÿÿÿÿ
+M
+java:S1172S"2Remove this unused method parameter "actionEvent".(ş‹Úôşÿÿÿÿ
+G
+java:S1602d",Remove useless curly braces around statement(ƒ¶¡èşÿÿÿÿ
+G
+java:S1172p"1Remove this unused method parameter "mouseEvent".(ÃøÄî
+
+java:S1319b"yThe type of the "examDetailsTMS" object should be an interface such as "List" rather than the implementation "ArrayList".(¸Î‘–
+q
+java:S1104"VMake cmbStudent a static final constant or non-public and provide accessors if needed.(—ı„ùÿÿÿÿ
+u
+java:S1104"ZMake lblStudentName a static final constant or non-public and provide accessors if needed.(âîµúÿÿÿÿÿ
+p
+java:S1104"ZMake tblExamDetails a static final constant or non-public and provide accessors if needed.(¾‚Ê£
+o
+java:S1104"YMake colExamNumber a static final constant or non-public and provide accessors if needed.(´ÿÌÕ
+r
+java:S1104"WMake colExamName a static final constant or non-public and provide accessors if needed.(¿ÈÈÜùÿÿÿÿ
+r
+java:S1104 "WMake colExamMark a static final constant or non-public and provide accessors if needed.(ŸñÁùÿÿÿÿ
+t
+java:S1104!"YMake colExamResult a static final constant or non-public and provide accessors if needed.(İ±•Şüÿÿÿÿ
+r
+java:S1104""WMake colHeldDate a static final constant or non-public and provide accessors if needed.(áßæ¼ùÿÿÿÿ
+r
+java:S1104#"WMake txtExamMark a static final constant or non-public and provide accessors if needed.(ÌöúÜüÿÿÿÿ
+s
+java:S1104$"]Make cmbExamResultType a static final constant or non-public and provide accessors if needed.(Ş¡š¨
+t
+java:S1104%"YMake txtExamNumber a static final constant or non-public and provide accessors if needed.(æĞÂ§ûÿÿÿÿ
+r
+java:S1104&"WMake txtExamName a static final constant or non-public and provide accessors if needed.(½ˆşÇúÿÿÿÿ
+q
+java:S1104'"VMake txthelDate a static final constant or non-public and provide accessors if needed.(İì¨£ıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î
+e
+java:S2095}"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(²ÑˆŠ

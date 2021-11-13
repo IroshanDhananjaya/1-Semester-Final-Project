@@ -1,0 +1,10 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8´Çò¼/
+
+java:S1319"rThe type of the "details" object should be an interface such as "List" rather than the implementation "ArrayList".(Ô²ÏŞ8ò¥ú«¼/
+
+java:S1319J"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ïÅä8Şøú«¼/
+
+java:S1319N"rThe type of the "details" object should be an interface such as "List" rather than the implementation "ArrayList".(­‘¯8Ö½û«¼/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“

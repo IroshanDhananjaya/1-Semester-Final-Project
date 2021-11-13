@@ -1,0 +1,54 @@
+
+J
+java:S3740#"/Provide the parametrized type for this generic.(Ë¦õëÿÿÿÿÿ
+E
+java:S3740&"/Provide the parametrized type for this generic.(Ó«ª°
+E
+java:S3740'"/Provide the parametrized type for this generic.(“ÐÃâ
+J
+java:S3740("/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ
+J
+java:S3740)"/Provide the parametrized type for this generic.(¶°³§ýÿÿÿÿ
+y	java:S116*"_Rename this field "SubjectManageContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àöÀôùÿÿÿÿ
+c	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦û
+H
+java:S1172D"2Remove this unused method parameter "actionEvent".(¦û
+c	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šç±ý
+H
+java:S1172a"2Remove this unused method parameter "actionEvent".(‘ëßé
+B
+java:S1602k",Remove useless curly braces around statement(àÞÏ
+E
+java:S1128"*Remove this unused import 'Model.Teacher'.(Ýà¿¨üÿÿÿÿ
+I
+java:S1128	".Remove this unused import 'View.TM.TeacherTM'.(ÚôÒâüÿÿÿÿ
+e
+java:S1128
+"JRemove this unused import 'com.jfoenix.animation.alert.JFXAlertAnimation'.(¶É–¢þÿÿÿÿ
+P
+java:S1128":Remove this unused import 'com.jfoenix.controls.JFXAlert'.(šÖû®
+Y
+java:S1128">Remove this unused import 'com.jfoenix.controls.JFXTextField'.(Þ»†¬ùÿÿÿÿ
+‰
+java:S1319i"sThe type of the "teachers" object should be an interface such as "List" rather than the implementation "ArrayList".(á¡ÏÎ
+n
+java:S1104!"XMake txtSubjectID a static final constant or non-public and provide accessors if needed.(”ÎŠ¢
+p
+java:S1104""ZMake txtSubjectName a static final constant or non-public and provide accessors if needed.(•â×ì
+p
+java:S1104#"UMake cmbMedium a static final constant or non-public and provide accessors if needed.(Ë¦õëÿÿÿÿÿ
+n
+java:S1104$"SMake btnSave a static final constant or non-public and provide accessors if needed.(Æ ‡’úÿÿÿÿ
+}
+java:S1104%"gMake subjectManagementController a static final constant or non-public and provide accessors if needed.(ËÚ±¤
+l
+java:S1104&"VMake tblSubject a static final constant or non-public and provide accessors if needed.(Ó«ª°
+g
+java:S1104'"QMake colId a static final constant or non-public and provide accessors if needed.(“ÐÃâ
+n
+java:S1104("SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ
+q
+java:S1104)"VMake colMeadium a static final constant or non-public and provide accessors if needed.(¶°³§ýÿÿÿÿ
+{
+java:S1104*"`Make SubjectManageContext a static final constant or non-public and provide accessors if needed.(àöÀôùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î

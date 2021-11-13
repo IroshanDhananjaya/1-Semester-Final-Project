@@ -1,0 +1,30 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ùÎæìúÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(É»¨˜ıÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(È¡‰Ü
+M
+java:S11725"2Remove this unused method parameter "actionEvent".(ÒŠ¥òùÿÿÿÿ
+T
+java:S1172?"2Remove this unused method parameter "actionEvent".(ÕĞöğÿÿÿÿÿ8Œ‘§¾/
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(£Ëè‡8£–§¾/
+S
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8Á¹ú¿/
+s
+java:S1104"XMake cmbTeacherID a static final constant or non-public and provide accessors if needed.(ùÎæìúÿÿÿÿ
+p
+java:S1104"UMake cmbGender a static final constant or non-public and provide accessors if needed.(É»¨˜ıÿÿÿÿ
+p
+java:S1104"ZMake txtTeacherName a static final constant or non-public and provide accessors if needed.(ÂßòÅ
+q
+java:S1104"VMake txtAddress a static final constant or non-public and provide accessors if needed.(©ûîùıÿÿÿÿ
+m
+java:S1104"WMake cmbReligion a static final constant or non-public and provide accessors if needed.(È¡‰Ü
+q
+java:S1104"VMake cmbContact a static final constant or non-public and provide accessors if needed.(‚¹¥¨øÿÿÿÿ
+€
+java:S1104"^Make teacherEditContext a static final constant or non-public and provide accessors if needed.(²¾ÏÌúÿÿÿÿ8Ê…•§¾/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î

@@ -1,0 +1,6 @@
+
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¿ïñ¦¿/
+\	java:S107"BConstructor has 15 parameters, which is greater than 7 authorized.(‚ÑÙ»ıÿÿÿÿ
+^	java:S107-"BConstructor has 13 parameters, which is greater than 7 authorized.(×À¢8ñ¡ó¦¿/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“

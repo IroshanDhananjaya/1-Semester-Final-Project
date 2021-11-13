@@ -1,0 +1,31 @@
+
+Q	java:S125!"<This block of commented-out lines of code should be removed.(¨¼êÒ
+X
+java:S1126¤"AReplace this if-then-else statement by a single return statement.(šÌ¿
+O	java:S106ì"9Replace this use of System.out or System.err by a logger.(£ÛÔ”
+Œ
+java:S1319É"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ó Ùúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙêÍ˜üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·ÊÿŠ
+W
+java:S2259v"AA "NullPointerException" could be thrown; "con" is nullable here.(½¼§¢
+f
+java:S2095ƒ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ò€§
+f
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šÌ¿
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ûûÿŸ
+k
+java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãğôãûÿÿÿÿ
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ûûÿŸ
+e
+java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ö±©½
+e
+java:S2095P"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šÆ®ß
+f
+java:S2095Œ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(âú¯ô
+k
+java:S2095Ë"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŒÑ€Õşÿÿÿÿ
+k
+java:S2095ã"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÇàÅáüÿÿÿÿ

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="studentEditContext" prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentEditFormController">
+   <children>
+      <Label layoutX="37.0" layoutY="10.0" text="Student Manage" textFill="#f2e6e6">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="20.0" layoutY="61.0" prefHeight="479.0" prefWidth="1009.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow height="14.93" radius="6.965" width="14.93" />
+         </effect>
+         <children>
+            <TextField fx:id="txtStudentFirstName" layoutX="241.0" layoutY="120.0" prefHeight="26.0" prefWidth="248.0" promptText="Iroshan" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="241.0" layoutY="104.0" text="First Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtStudentLastName" layoutX="510.0" layoutY="120.0" prefHeight="26.0" prefWidth="248.0" promptText="Dhananjaya" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="510.0" layoutY="104.0" text="Last Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="92.0" text="Index Number">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="162.0" text="Gender">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="816.0" layoutY="99.0" text="Religion">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtMotherFirstName" layoutX="39.0" layoutY="280.0" prefHeight="26.0" prefWidth="164.0" promptText="Nimali" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="39.0" layoutY="264.0" text="Mother First Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtMortherLastName" layoutX="304.0" layoutY="275.0" prefHeight="26.0" prefWidth="171.0" promptText="Perera" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="304.0" layoutY="259.0" text="Morther Last Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtFartherFirstName" layoutX="586.0" layoutY="275.0" prefHeight="26.0" prefWidth="171.0" promptText="Nimal" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="586.0" layoutY="259.0" text="Farther First Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAddress" layoutX="297.0" layoutY="373.0" prefHeight="26.0" prefWidth="248.0" promptText="123/A Dandeniya" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="297.0" layoutY="357.0" text="Address*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtFartherOccupation" layoutX="45.0" layoutY="373.0" prefHeight="26.0" prefWidth="230.0" promptText="Driver" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="44.0" layoutY="357.0" text="Farther Occupation*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtFartherLastName" layoutX="817.0" layoutY="275.0" prefHeight="26.0" prefWidth="171.0" promptText="Perera" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="817.0" layoutY="259.0" text="Farther Last Name*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtContact" layoutX="583.0" layoutY="370.0" prefHeight="26.0" prefWidth="248.0" promptText="0762345678" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="583.0" layoutY="354.0" text="Contact*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="savebtn" layoutX="43.0" layoutY="414.0" mnemonicParsing="false" onAction="#studentSaveOnAction" prefHeight="51.0" prefWidth="193.0" style="-fx-background-color: #00007f;" text="Save" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="252.0" layoutY="414.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="51.0" prefWidth="193.0" style="-fx-background-color: #ffb12a;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ComboBox fx:id="cmbGender" layoutX="32.0" layoutY="192.0" prefHeight="26.0" prefWidth="164.0" />
+            <ComboBox fx:id="cmbReligion" layoutX="787.0" layoutY="128.0" prefHeight="26.0" prefWidth="164.0" />
+            <ComboBox fx:id="cmbStudents" layoutX="32.0" layoutY="115.0" prefHeight="26.0" prefWidth="164.0" />
+            <TextField fx:id="txtBirthDay" layoutX="241.0" layoutY="192.0" prefHeight="26.0" prefWidth="288.0" promptText="2001-03-22" style="-fx-background-radius: 20;" styleClass="textPane" />
+            <Label layoutX="236.0" layoutY="162.0" text="Birth Day">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="35.0" text="Edit Student">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Separator layoutX="175.0" layoutY="46.0" prefHeight="3.0" prefWidth="813.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="DashboardFullScreenContext" prefHeight="649.0" prefWidth="1232.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DashboardFormController">
+   <children>
+      <AnchorPane fx:id="DashboardMainWindowContext" layoutX="185.0" layoutY="59.0" prefHeight="589.0" prefWidth="1048.0" style="-fx-background-color: #ffffffff;" AnchorPane.bottomAnchor="1.0">
+         <children>
+            <AnchorPane layoutX="789.0" layoutY="25.0" prefHeight="108.0" prefWidth="192.0" style="-fx-background-color: linear-gradient(to right, #290f0f, #3a1416, #4d191b, #601e1f, #732323);; -fx-background-radius: 20;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="49.0" layoutY="18.0" text="Students" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblStudent" layoutX="82.0" layoutY="58.0" text="00" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="790.0" layoutY="165.0" prefHeight="108.0" prefWidth="192.0" style="-fx-background-color: linear-gradient(to right, #0d0d6b, #121587, #151da5, #1726c3, #1530e3);; -fx-background-radius: 20;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="45.0" layoutY="23.0" text="Teachers" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblTeacher" layoutX="82.0" layoutY="59.0" text="00" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="794.0" layoutY="305.0" prefHeight="108.0" prefWidth="192.0" style="-fx-background-color: linear-gradient(to right, #3c4a0a, #556d0c, #6d920c, #85ba0e, #9be312);; -fx-background-radius: 20;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="66.0" layoutY="23.0" text="Class" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblClass" layoutX="82.0" layoutY="58.0" text="00" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="792.0" layoutY="449.0" prefHeight="108.0" prefWidth="192.0" style="-fx-background-color: linear-gradient(to right, #670909, #92390b, #b76701, #d39a00, #e3d112);; -fx-background-radius: 20;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="66.0" layoutY="23.0" text="Sports" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblSport" layoutX="90.0" layoutY="61.0" text="00" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <PieChart fx:id="PieChartStudent" layoutX="14.0" layoutY="110.0" prefHeight="470.0" prefWidth="714.0" />
+            <Label layoutX="20.0" layoutY="93.0" text="Students &amp; Teachers">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="75.0" layoutY="33.0" onAction="#printStudentAddmisionOnAction" prefHeight="49.0" prefWidth="251.0" style="-fx-background-color: #005500; -fx-background-radius: 20;" text="Student Addmision Form" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/printer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton layoutX="416.0" layoutY="35.0" onAction="#printTeacherRejisterOnAction" prefHeight="49.0" prefWidth="251.0" style="-fx-background-color: #aa5500; -fx-background-radius: 20;" text="Teacher Rejister Form" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/printer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+         </children></AnchorPane>
+      <AnchorPane layoutY="69.0" prefHeight="589.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to bottom, #061e53, #002379, #00259e, #0021c3, #2610e7);" styleClass=".body" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <Button layoutX="4.0" layoutY="175.0" mnemonicParsing="false" onAction="#TeacherManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Teacher" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/teacher%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="6.0" layoutY="110.0" mnemonicParsing="false" onAction="#StudentManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Student" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/students%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="241.0" mnemonicParsing="false" onAction="#SectionManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Class" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/classroom.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="6.0" layoutY="306.0" mnemonicParsing="false" onAction="#SubjectManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Subject" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/bookmark.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="6.0" layoutY="373.0" mnemonicParsing="false" onAction="#HostalManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Hostal" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/hostel.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="5.0" layoutY="434.0" mnemonicParsing="false" onAction="#SportManageOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Sport" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/sports%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="4.0" layoutY="496.0" mnemonicParsing="false" onAction="#examOnAction" prefHeight="49.0" prefWidth="175.0" style="-fx-background-radius: 15;" styleClass="button-one" text="Exam" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/exam%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="49.0" fitWidth="60.0" layoutX="67.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/login.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblUserName" alignment="TOP_CENTER" layoutX="59.0" layoutY="56.0" text="User " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="60.0" prefWidth="1232.0" style="-fx-background-color: #cfc4ba; -fx-background-radius: 0;">
+         <children>
+            <Button alignment="BASELINE_LEFT" layoutX="547.0" layoutY="7.0" mnemonicParsing="false" onAction="#homeOnAction" prefHeight="49.0" prefWidth="103.0" style="-fx-background-radius: 15;" styleClass="button-four" text="Home">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="49.0" fitWidth="43.0" layoutX="261.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/clock.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblTime" layoutX="317.0" layoutY="14.0" text="10:33">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="49.0" fitWidth="43.0" layoutX="21.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/calendar.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblDate" layoutX="75.0" layoutY="14.0" text="2021-03-10">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="49.0" fitWidth="60.0" layoutX="990.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/login.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblUserName1" layoutX="1047.0" layoutY="18.0" text="User Name">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button alignment="BASELINE_LEFT" layoutX="650.0" layoutY="6.0" mnemonicParsing="false" onAction="#addNewUserOnAction" prefHeight="49.0" prefWidth="158.0" style="-fx-background-radius: 15;" styleClass="button-four" text="Add New User">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/add-friend.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="808.0" layoutY="5.0" mnemonicParsing="false" onAction="#logOutOnAction" prefHeight="49.0" prefWidth="103.0" style="-fx-background-radius: 15;" styleClass="button-four" text="LogOut">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

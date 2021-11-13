@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentDetailsInClassesFormController">
+   <children>
+      <AnchorPane layoutX="29.0" layoutY="105.0" prefHeight="440.0" prefWidth="987.0" style="-fx-background-color: #ffffffff; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <TableView fx:id="tblStudent" layoutX="8.0" layoutY="176.0" prefHeight="248.0" prefWidth="564.0" styleClass="table-view1">
+              <columns>
+                <TableColumn fx:id="colIndexNumber" prefWidth="135.6666717529297" text="Index Number" />
+                <TableColumn fx:id="colSName" prefWidth="244.0" text="Student Name" />
+                  <TableColumn fx:id="colDate" prefWidth="182.0" text="Addmision Date" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tblTeacher" layoutX="577.0" layoutY="175.0" prefHeight="248.0" prefWidth="404.0" styleClass="table-view1">
+               <columns>
+                  <TableColumn fx:id="colID" prefWidth="138.0" text="Teacher ID" />
+                  <TableColumn fx:id="colTName" prefWidth="265.0" text="Teacher Name" />
+               </columns>
+            </TableView>
+            <JFXComboBox fx:id="cmbClass" layoutX="93.0" layoutY="77.0" prefHeight="26.0" prefWidth="338.0" />
+            <Label layoutX="96.0" layoutY="42.0" text="Select Class">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClassName" layoutX="491.0" layoutY="81.0" text="Class Name" textFill="#3e0e8d">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="45.0" layoutY="32.0" text="Student &amp; Teacher Details In Classes" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

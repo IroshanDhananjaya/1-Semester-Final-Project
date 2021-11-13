@@ -1,0 +1,52 @@
+
+W
+java:S1126n"AReplace this if-then-else statement by a single return statement.(®øÄˆ
+\
+java:S1126v"AReplace this if-then-else statement by a single return statement.(ã¤óûÿÿÿÿ
+X
+java:S1126Ê"AReplace this if-then-else statement by a single return statement.(‹¬Ùõ
+P
+java:S1128":Remove this unused import 'javafx.scene.control.ComboBox'.(òÀø¸
+‡
+java:S1319–"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—é‘
+‡
+java:S1319±"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ó¨ûá
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·ÊÿŠ
+e
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šÆ®ß
+f
+java:S2095©"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(È‹éÿ
+j
+java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‹ğÏˆøÿÿÿÿ
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÔØüØ
+j
+java:S2095B"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¼‹Ì¸úÿÿÿÿ
+e
+java:S2095~"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(–‡’æ
+j
+java:S2095+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¼‹Ì¸úÿÿÿÿ
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µíª¡
+d
+java:S2095a"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½Å­%
+f
+java:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(îş±ª
+f
+java:S2095²"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö‰‘Î
+j
+java:S2095v"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ã¤óûÿÿÿÿ
+k
+java:S2095—"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¿ìøÿÿÿÿ
+f
+java:S2095¼"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­ü‚
+f
+java:S2095‰"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ö‰‘Î
+e
+java:S2095n"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®øÄˆ
+f
+java:S2095Ê"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‹¬Ùõ
+e
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šÆ®ß
+k
+java:S2095·"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(˜·Ãşÿÿÿÿ

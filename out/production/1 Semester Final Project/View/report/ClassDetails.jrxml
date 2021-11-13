@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ClassDetails" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6ae7a3d6-98ae-408f-832b-ad02f0788640">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="studentIndex" class="java.lang.String"/>
+	<field name="studentName" class="java.lang.String"/>
+	<field name="date" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="555" height="40" uuid="cb3f2e15-8cda-493f-9fb9-5538626345d5"/>
+				<textElement textAlignment="Center">
+					<font size="33" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Class Details]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="185" height="30" uuid="f8ed04de-c8b6-489d-a0d1-390676046f89">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3826c25d-d8a7-4e01-8e1f-6db95ceca65f"/>
+				</reportElement>
+				<box topPadding="6" leftPadding="30" rightPadding="0">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Index]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="185" y="0" width="185" height="30" uuid="4e47e54b-0bee-4031-8bd7-b6cb5b0e3d71">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9ec59f7e-266b-4caf-a23e-6a064b0517ac"/>
+				</reportElement>
+				<box topPadding="6" leftPadding="30" rightPadding="0">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="0" width="185" height="30" uuid="3f9b199e-8fa1-4b85-b4f7-2a491ce156c1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="68049f0f-d5a9-4e3b-a170-743621d2b7a2"/>
+				</reportElement>
+				<box topPadding="6" leftPadding="30" rightPadding="0">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Datte]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="185" height="30" uuid="6622e01b-7429-49bf-9e27-e6fdcd363d50">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3826c25d-d8a7-4e01-8e1f-6db95ceca65f"/>
+				</reportElement>
+				<box topPadding="8" bottomPadding="10">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{studentIndex}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="0" width="185" height="30" uuid="cb3002ef-02af-4267-b5b3-a8268550bac7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9ec59f7e-266b-4caf-a23e-6a064b0517ac"/>
+				</reportElement>
+				<box topPadding="8" bottomPadding="10">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{studentName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="0" width="185" height="30" uuid="3e3f35ff-a1d4-4883-aef2-ed8f38f66a26">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="68049f0f-d5a9-4e3b-a170-743621d2b7a2"/>
+				</reportElement>
+				<box topPadding="8" bottomPadding="10">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

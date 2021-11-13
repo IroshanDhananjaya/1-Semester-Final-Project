@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="StudentForm" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f3ae6d58-ff22-4e5a-969a-f909891ffe68">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="616" splitType="Stretch">
+			<rectangle>
+				<reportElement x="255" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="960d4950-9b35-47d2-89d1-e2cd9c3189e7"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="271" y="275" width="45" height="19" uuid="5506c5b3-3e9f-4014-8671-65e8fab20e81"/>
+				<text><![CDATA[Female]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="30" y="50" width="499" height="2" backcolor="#1411BD" uuid="14e6f7d1-0fe0-43f8-bbdf-1b8fd9f6dd7e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="434" width="405" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="f8f806c2-828f-41e9-9a07-41e6f7481264"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="243" width="59" height="16" uuid="07e8fd87-6199-409c-b7be-d49962e81248"/>
+				<text><![CDATA[Tamil]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="595" width="84" height="21" uuid="0a7c7add-777e-45cc-89d2-f2ac9318d975"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[T.P. Number :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="411" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="607976a9-857b-4a9a-bbf2-4bdc64e9e13d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="364" y="214" width="10" height="13" forecolor="#948B8B" uuid="6e83a1fb-71f0-472f-a3c6-3b2fba9e13e5"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[M]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="378" y="241" width="80" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="3cb73533-870a-4a31-a650-76755c554085"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="396" width="130" height="21" uuid="d55ed36f-5706-48e9-af7e-33e781efba0f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Morther Last Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="344" y="241" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="d8b712b9-e74f-4ef3-8b68-2901b75cc117"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="20" width="555" height="55" uuid="0eafbde6-5548-4779-b518-5472bdb5ca7b"/>
+				<textElement textAlignment="Center">
+					<font size="29" isBold="true"/>
+				</textElement>
+				<text><![CDATA[R/ Gankanda Central Collage]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="317" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="f162d566-84f9-4ad0-a763-4a116a7af8f0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="241" width="80" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="d760de99-a830-4cd5-a6fd-a4bbcc0f4812"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="399" y="243" width="59" height="16" uuid="f7b42bed-e4c1-4a71-9253-bcf56f68f398"/>
+				<text><![CDATA[Muslim]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="329" y="214" width="10" height="13" forecolor="#948B8B" uuid="0cac2e04-8b3c-42fd-9296-487e7ab005d4"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[M]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="151" y="270" width="70" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="073d8e64-4660-40a1-bab6-5b1b74705154"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="268" y="214" width="10" height="13" forecolor="#948B8B" uuid="dbdfa463-135a-43f2-bff4-9c91d2e3fe39"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Y]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="458" y="214" width="10" height="13" forecolor="#948B8B" uuid="4c730d59-a6f5-48e0-b6ca-58073f82785d"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[D]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="88" y="270" width="58" height="21" uuid="bfa8e4b4-3c3e-472a-b88b-f0fde66c693a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="214" width="10" height="13" forecolor="#948B8B" uuid="3a7258a0-8970-4253-97eb-243ae58bc543"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Y]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="150" y="396" width="404" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="5d6bd12a-d67a-4afa-9f58-f86609c25ba4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="230" y="241" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="7bf3a524-f43a-47d4-a1c8-8b5f0e018cc7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="458" y="241" width="21" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="ea3b5833-bf58-4776-8443-44d5bc38ad87"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="33" y="211" width="115" height="21" uuid="969a87e2-fce4-4751-837a-42be339398e2"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date Of Birth Day:-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="221" y="270" width="25" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="d5737629-cd3a-4041-8ec9-80933f675904"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="163" y="243" width="59" height="16" uuid="02447ec8-4dc3-48bb-a677-36d3a44db703"/>
+				<text><![CDATA[Buddhism]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="352" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="ea8bcbae-c51f-4a26-97a7-859a339306a3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="595" width="128" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="781eeabe-889c-4a38-9eb7-55c8177e00f7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="515" width="228" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="9c461dca-2b95-4243-b55d-fc3b371a4304"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="162" y="214" width="10" height="13" forecolor="#948B8B" uuid="f9df39d4-5e66-4b16-9fdc-3a8512c7745f"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Y]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="150" y="181" width="404" height="20" backcolor="rgba(255, 255, 255, 0.0)" uuid="f356edb6-8dc8-4ac2-b011-38496280abca"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="197" y="214" width="10" height="13" forecolor="#948B8B" uuid="88d064fd-b539-4bc1-8677-165092ffa9ba"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Y]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="266" y="270" width="70" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="3d454349-09ea-445b-98ea-181a0e1cd9ea"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="185" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="2d37e762-cbaa-425a-a169-1f635695fb14"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="83" y="557" width="65" height="21" uuid="bcc4bac2-36db-4eb3-afe0-41048cc6bc54"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="434" width="130" height="21" uuid="be1b919b-5d6b-4962-b973-4868b7378579"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Farther First Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="150" y="150" width="402" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="a420a35f-c4b7-40a4-baf4-b64d141020a6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="425" y="214" width="10" height="13" forecolor="#948B8B" uuid="7634e05c-7e99-4858-b6d7-5bc861e34a9f"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[D]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="220" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="163c9e2c-5af0-4a31-a56a-f54392ec9f53"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="-10" y="120" width="151" height="22" uuid="150cfbf3-d82f-4dbf-a6a2-ba62da941d6d"/>
+				<textElement textAlignment="Left">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Details]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="150" y="475" width="405" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="b9f82c93-175d-4e27-82c7-94022b78e74b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="82" y="242" width="58" height="21" uuid="b52b51a8-db6e-446c-a847-47283a8402b3"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Religion :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="149" width="130" height="21" uuid="66b7b237-cf8a-48ed-96f5-0dfbce199cec"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student First Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement key="" x="150" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="fa4fd7c6-858f-466a-8078-4010136f8479"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="555" width="403" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="fce121fd-2533-4be9-8057-f425b4bf79a2"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="154" y="60" width="195" height="30" uuid="73633f29-fdc9-4cee-adfb-c29f9389278b"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Addmision Form]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="264" y="241" width="80" height="18" backcolor="rgba(255, 255, 255, 0.0)" uuid="6a27d45e-9178-42f2-8e43-08b33cc90a49"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="23" y="475" width="130" height="21" uuid="87da66f8-f0fd-4e65-ad27-c4a6ff8770df"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Farther Last Name :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="321" width="151" height="22" uuid="72990230-95ed-4145-8d71-3b4708a8d0b6"/>
+				<textElement textAlignment="Left">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parents Details]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="446" y="211" width="35" height="19" backcolor="rgba(255, 255, 255, 0.0)" uuid="3838e557-ce89-431f-8231-dd9b242fcaf6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="357" width="404" height="16" backcolor="rgba(255, 255, 255, 0.0)" uuid="f7559083-c091-489c-93d4-2c302db4e45e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="174" y="275" width="35" height="19" uuid="1fb334d9-7d64-4f90-9f96-8f0bff4c2696"/>
+				<text><![CDATA[Male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="180" width="130" height="21" uuid="a523b874-7a45-480a-bb53-ebada86ecd97"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Last Name :-]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="336" y="270" width="25" height="21" backcolor="rgba(255, 255, 255, 0.0)" uuid="bb14d0d9-7047-4b20-8922-8acecc64cd69"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="515" width="130" height="21" uuid="cf4990bd-8784-469d-b61f-775c30d9e756"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Farther Occupation :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="357" width="130" height="21" uuid="ddd396e4-a78f-4b28-a29d-420922533245"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Morther First Name :-]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="3" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

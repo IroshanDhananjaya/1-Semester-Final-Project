@@ -1,0 +1,59 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(‡ª€Åşÿÿÿÿ
+J
+java:S3740 "/Provide the parametrized type for this generic.(‹ù—ùıÿÿÿÿ
+E
+java:S3740!"/Provide the parametrized type for this generic.(è²ˆ«
+J
+java:S3740""/Provide the parametrized type for this generic.(Ş†ùŠøÿÿÿÿ
+J
+java:S3740#"/Provide the parametrized type for this generic.(á¹ŒĞûÿÿÿÿ
+E
+java:S3740$"/Provide the parametrized type for this generic.(®Õš°
+M
+java:S1172E"2Remove this unused method parameter "actionEvent".(ôÖ‡Âûÿÿÿÿ
+T
+java:S1172i"2Remove this unused method parameter "actionEvent".(ÕĞöğÿÿÿÿÿ8à°‡‘¿/
+k	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¼Ğ¿ùÿÿÿÿ
+|
+java:S1104"aMake txtStudentIndexNumber a static final constant or non-public and provide accessors if needed.(†ğ‚öüÿÿÿÿ
+u
+java:S1104"_Make txtStudentFirstName a static final constant or non-public and provide accessors if needed.(Ùæ†õ
+t
+java:S1104"^Make txtStudentLastName a static final constant or non-public and provide accessors if needed.(ğˆ›
+y
+java:S1104"^Make txtMotherFirstName a static final constant or non-public and provide accessors if needed.(ü·Öûøÿÿÿÿ
+s
+java:S1104"^Make txtMortherLastName a static final constant or non-public and provide accessors if needed.(ü¼ç
+
+z
+java:S1104"_Make txtFartherFirstName a static final constant or non-public and provide accessors if needed.(…á‰šøÿÿÿÿ
+q
+java:S1104"VMake txtAddress a static final constant or non-public and provide accessors if needed.(ºåıÿÿÿÿ
+v
+java:S1104"`Make txtFartherOccupation a static final constant or non-public and provide accessors if needed.(›–şì
+s
+java:S1104"^Make txtFartherLastName a static final constant or non-public and provide accessors if needed.(·¨´
+
+q
+java:S1104"VMake txtContact a static final constant or non-public and provide accessors if needed.(ıõ¸£ÿÿÿÿÿ
+n
+java:S1104"SMake savebtn a static final constant or non-public and provide accessors if needed.(„‹“şúÿÿÿÿ
+s
+java:S1104"XMake cmbBirthYear a static final constant or non-public and provide accessors if needed.(‡ª€Åşÿÿÿÿ
+t
+java:S1104 "YMake cmbBirthMonth a static final constant or non-public and provide accessors if needed.(‹ù—ùıÿÿÿÿ
+m
+java:S1104!"WMake cmbBirthDay a static final constant or non-public and provide accessors if needed.(è²ˆ«
+p
+java:S1104""UMake cmbGender a static final constant or non-public and provide accessors if needed.(Ş†ùŠøÿÿÿÿ
+r
+java:S1104#"WMake cmbReligion a static final constant or non-public and provide accessors if needed.(á¹ŒĞûÿÿÿÿ
+m
+java:S1104$"WMake cmbStudents a static final constant or non-public and provide accessors if needed.(®Õš°
+m
+java:S1104%"WMake txtBirthDay a static final constant or non-public and provide accessors if needed.(àÓ³Ò
+{
+java:S1104&"^Make studentEditContext a static final constant or non-public and provide accessors if needed.(­…†á8ÎÒ†‘¿/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î

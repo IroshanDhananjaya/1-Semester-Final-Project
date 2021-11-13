@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SubjectEditandDeleteContext" prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SubjectEditAndDeleteFormController">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="132.0" prefHeight="356.0" prefWidth="947.0" style="-fx-background-color: #ffffffff; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label layoutX="47.0" layoutY="81.0" text="Subject ID :-">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="251.0" text="Meadium :-">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="14.0" text="Subject Edit &amp; Delete">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button layoutX="586.0" layoutY="101.0" mnemonicParsing="false" onAction="#editOnAction" prefHeight="48.0" prefWidth="287.0" style="-fx-background-color: #0055ff;" text="Edit Save" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="586.0" layoutY="245.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="48.0" prefWidth="287.0" style="-fx-background-color: #ff5500;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="586.0" layoutY="173.0" mnemonicParsing="false" onAction="#deleteOnAction" prefHeight="48.0" prefWidth="287.0" style="-fx-background-color: #ff0000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <JFXComboBox fx:id="cmbSubjectID" layoutX="147.0" layoutY="76.0" prefHeight="26.0" prefWidth="304.0" />
+            <Label layoutX="21.0" layoutY="164.0" text="Subject Name :-">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtSubjectName" layoutX="154.0" layoutY="161.0" prefHeight="26.0" prefWidth="293.0" />
+            <JFXComboBox fx:id="cmbMedium" layoutX="151.0" layoutY="247.0" prefHeight="26.0" prefWidth="304.0" />
+            <Separator layoutX="259.0" layoutY="27.0" prefHeight="1.0" prefWidth="635.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="39.0" layoutY="14.0" text="Subject Manage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

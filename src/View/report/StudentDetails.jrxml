@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Student Details" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="869d72d2-1008-44f1-be4a-2b4200925616">
+	<parameter name="StudentName" class="java.lang.String"/>
+	<parameter name="gender" class="java.lang.String"/>
+	<parameter name="religion" class="java.lang.String"/>
+	<parameter name="birthDay" class="java.lang.String"/>
+	<parameter name="motherName" class="java.lang.String"/>
+	<parameter name="fartherName" class="java.lang.String"/>
+	<parameter name="occupation" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<parameter name="contact" class="java.lang.String"/>
+	<parameter name="class" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="-3" width="555" height="40" forecolor="#1651F2" uuid="748bcb1d-5439-4d80-addc-504b31d789b5"/>
+				<textElement textAlignment="Center">
+					<font size="29" isBold="true"/>
+				</textElement>
+				<text><![CDATA[R/Gankanda Central College]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="34" width="555" height="30" uuid="562e78c4-4538-48de-8b25-bb87df7cfbef"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Details]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="305" splitType="Stretch">
+			<textField>
+				<reportElement x="425" y="290" width="100" height="14" uuid="30c9bd9e-1797-45e8-9ed2-ed559c9201e4"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{class}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="273" y="80" width="120" height="15" uuid="ed1a4d44-e7ba-46b1-b2bd-3fc88b5e18f0"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Religion  -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="424" y="260" width="100" height="13" uuid="9d82ee56-0c2f-4e51-b5e6-777649cc2977"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{contact}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="170" width="100" height="15" uuid="e21c206f-c931-4ec8-9f4a-137716e7eb61"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fartherName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="275" y="229" width="120" height="15" uuid="d2cd7411-19e9-478c-993e-f22a804359d4"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address  -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="425" y="51" width="100" height="15" uuid="412b5213-f08f-4ca3-abcc-47a24f9344c6"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{gender}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="247" y="290" width="149" height="15" uuid="f772eef0-41d9-40a2-acf1-cc9237b6069d"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Class -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="425" y="200" width="100" height="15" uuid="a93c39b9-3d58-46b7-a3e2-64263d0a0f7e"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{occupation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="81" width="100" height="14" uuid="1cd10a2a-fd54-4020-a77b-f29f9e5d0fd2"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{religion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="273" y="20" width="120" height="15" uuid="39c05f6e-8193-45d5-b54f-685df00a403c"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Name  -]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="170" width="120" height="15" uuid="3cf92c06-fd0a-44eb-bf4c-105eb27b54b8"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Farther Name  -]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="140" width="120" height="15" uuid="b50e033b-0021-49eb-a1db-9fe10a827d0c"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Morther Name  -]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="259" width="149" height="15" uuid="e9cad2c6-e384-41e2-873e-06d7dfc199bd"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Contact  -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="424" y="110" width="100" height="16" uuid="6fa7fb60-2fb4-4fb3-8311-364416040794"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{birthDay}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="263" y="110" width="130" height="15" uuid="149c4d49-38d1-4b6f-9256-be53af2089dd"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date Of BirthDay  -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="425" y="21" width="100" height="15" uuid="24aa5e64-5550-4dfe-9ab6-ee2ee17f40d1"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{StudentName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="141" width="100" height="14" uuid="01b69378-ec90-4c28-b7a4-a650370326c4"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{motherName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="229" width="100" height="16" uuid="9af8dded-eac2-4777-873a-cf43953994f8"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{contact}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="263" y="200" width="149" height="15" uuid="3e5b4e41-b5a5-4d9d-a051-a78365f77ec0"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Farther Occupation  -]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="50" width="120" height="15" uuid="5eb6651f-fb38-4ddc-b1cc-c4f6a5dd534c"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender  -]]></text>
+			</staticText>
+			<image>
+				<reportElement x="-5" y="20" width="258" height="280" uuid="67852d41-d64f-4b56-9817-74b487e6c706"/>
+				<imageExpression><![CDATA["/home/dhana/IJSE/GDSE57_ITS1066_IroshanDhananjaya/1 Semester Final Project/src/Assets/95560809_2724125094363749_65793332697104384_n.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

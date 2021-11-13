@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="editandDeleteContext" prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EditDeleteHostalAndRoomFormController">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="102.0" prefHeight="453.0" prefWidth="974.0" style="-fx-background-color: #ffffffff; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Separator layoutX="491.0" layoutY="11.0" orientation="VERTICAL" prefHeight="440.0" prefWidth="7.0" />
+            <Label layoutX="55.0" layoutY="82.0" prefHeight="21.0" prefWidth="84.0" text="Room ID *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbRoomIds" layoutX="163.0" layoutY="82.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="45.0" layoutY="153.0" prefHeight="21.0" prefWidth="84.0" text="Hostal ID *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbHostalIdsRoom" layoutX="163.0" layoutY="152.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="18.0" layoutY="228.0" prefHeight="21.0" prefWidth="116.0" text="Room Details *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtRoomDetails" layoutX="163.0" layoutY="231.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="43.0" layoutY="295.0" prefHeight="21.0" prefWidth="90.0" text="No of Bed *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbNoOfBed" layoutX="163.0" layoutY="295.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="548.0" layoutY="70.0" prefHeight="21.0" prefWidth="98.0" text="Hostal ID *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbHostalID" layoutX="670.0" layoutY="64.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="525.0" layoutY="139.0" prefHeight="21.0" prefWidth="116.0" text="Hostal Name *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbNoOfRoom" layoutX="674.0" layoutY="254.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="529.0" layoutY="196.0" prefHeight="21.0" prefWidth="116.0" text="Hostal Type *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtHostalName" layoutX="670.0" layoutY="135.0" prefHeight="26.0" prefWidth="276.0" />
+            <Label layoutX="534.0" layoutY="260.0" prefHeight="21.0" prefWidth="98.0" text="No of Room*">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbHostalType" layoutX="674.0" layoutY="190.0" prefHeight="26.0" prefWidth="269.0" />
+            <Label layoutX="557.0" layoutY="323.0" prefHeight="21.0" prefWidth="84.0" text="Contact *">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtContact" layoutX="670.0" layoutY="317.0" prefHeight="26.0" prefWidth="276.0" />
+            <Button layoutX="190.0" layoutY="388.0" mnemonicParsing="false" onAction="#editRoomOnAction" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #0009c2;" text="Edit" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="694.0" layoutY="384.0" mnemonicParsing="false" onAction="#editHostalOnAction" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #0009c2;" text="Edit" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="321.0" layoutY="389.0" mnemonicParsing="false" onAction="#deleteRoomOnAction" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #c22d00;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="825.0" layoutY="386.0" mnemonicParsing="false" onAction="#deleteHostalOnAction" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #c22d00;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="36.0" layoutY="17.0" text="Edit &amp; Delete Room">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="521.0" layoutY="16.0" text="Edit &amp; Delete Hostal">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="39.0" layoutY="14.0" text="Hostal &amp; Room Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="32.0" layoutY="53.0" mnemonicParsing="false" onAction="#backOnAction" prefHeight="36.0" prefWidth="67.0" style="-fx-background-color: #aa5500;" text="&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

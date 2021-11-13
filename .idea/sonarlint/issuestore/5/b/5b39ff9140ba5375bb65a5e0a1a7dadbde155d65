@@ -1,0 +1,41 @@
+
+\
+java:S11269"AReplace this if-then-else statement by a single return statement.(£‚ßıúÿÿÿÿ
+]
+java:S1126"AReplace this if-then-else statement by a single return statement.(½¦ïåüÿÿÿÿ
+q
+java:S1192"VDefine a constant instead of duplicating this literal "SELECT * FROM Subject" 3 times.(’Â”úûÿÿÿÿ
+†
+java:S1319Y"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(œîâ
+†
+java:S1319u"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(è•Ó’
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áëü
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·ÊÿŠ
+j
+java:S2095v"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(óñ¯úÿÿÿÿÿ
+e
+java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šÆ®ß
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’Â”úûÿÿÿÿ
+j
+java:S20959"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(£‚ßıúÿÿÿÿ
+e
+java:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(êº¦ò
+e
+java:S2095Z"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(³Ê…Ô
+j
+java:S2095B"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(èõàøøÿÿÿÿ
+j
+java:S2095N"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŸéıŸıÿÿÿÿ
+k
+java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ç§ñıÿÿÿÿ
+e
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘¹Š¥
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’Â”úûÿÿÿÿ
+e
+java:S2095m"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷‘Ï˜
+j
+java:S2095{"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æŞğêüÿÿÿÿ
+k
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¦ïåüÿÿÿÿ

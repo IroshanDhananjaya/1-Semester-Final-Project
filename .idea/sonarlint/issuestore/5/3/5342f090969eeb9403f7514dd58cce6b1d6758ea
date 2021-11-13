@@ -1,0 +1,51 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ÅÄºêıÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(€òÆ”
+J
+java:S3740"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ
+D
+java:S3740 "/Provide the parametrized type for this generic.(ƒ˜’M
+E
+java:S3740!"/Provide the parametrized type for this generic.(ö¶Ü’
+H
+java:S11725"2Remove this unused method parameter "actionEvent".(ñò¼ù
+G
+java:S1602A",Remove useless curly braces around statement(ºñÏ™ûÿÿÿÿ
+G
+java:S1172F"1Remove this unused method parameter "mouseEvent".(æöÇä
+M
+java:S1172Q"2Remove this unused method parameter "actionEvent".(ÒŠ¥òùÿÿÿÿ
+H
+java:S1172\"2Remove this unused method parameter "actionEvent".(ÌØİÛ
+H
+java:S1128"2Remove this unused import 'View.TM.ExamDetailsTM'.(ğ¤õ
+F
+java:S1128"0Remove this unused import 'sun.nio.cs.US_ASCII'.(ò€Ä
+„
+java:S1319?"oThe type of the "user" object should be an interface such as "List" rather than the implementation "ArrayList".(úê”`
+p
+java:S1104"ZMake addUserContext a static final constant or non-public and provide accessors if needed.(çî²ú
+p
+java:S1104"UMake txtUserID a static final constant or non-public and provide accessors if needed.(£ŞšÊşÿÿÿÿ
+r
+java:S1104"WMake txtUserName a static final constant or non-public and provide accessors if needed.(÷‹Ú’üÿÿÿÿ
+r
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ
+n
+java:S1104"SMake cmbType a static final constant or non-public and provide accessors if needed.(ÅÄºêıÿÿÿÿ
+i
+java:S1104"SMake tblUser a static final constant or non-public and provide accessors if needed.(ºœ¢Õ
+h
+java:S1104"RMake colNIC a static final constant or non-public and provide accessors if needed.(€òÆ”
+n
+java:S1104"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ
+l
+java:S1104 "WMake colPassword a static final constant or non-public and provide accessors if needed.(ƒ˜’M
+i
+java:S1104!"SMake colType a static final constant or non-public and provide accessors if needed.(ö¶Ü’
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìšÎªüÿÿÿÿ
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(ò€Ä
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î

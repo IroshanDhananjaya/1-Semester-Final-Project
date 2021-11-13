@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="teacherEditContext" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeacherEditFormController">
+   <children>
+      <Label layoutX="30.0" layoutY="19.0" text="Teacher Manage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="22.0" layoutY="97.0" prefHeight="469.0" prefWidth="1006.0" style="-fx-background-color: #ffffffff; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label layoutX="15.0" layoutY="14.0" text="Edit Teacher">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="92.0" text="Teacher ID :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbTeacherID" layoutX="123.0" layoutY="85.0" prefHeight="26.0" prefWidth="133.0" />
+            <Label layoutX="283.0" layoutY="93.0" text="Teacher Name :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbGender" layoutX="89.0" layoutY="203.0" prefHeight="26.0" prefWidth="171.0" />
+            <JFXTextField fx:id="txtTeacherName" layoutX="417.0" layoutY="85.0" prefHeight="26.0" prefWidth="184.0" />
+            <Label layoutX="638.0" layoutY="93.0" text="Teacher Address :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtAddress" layoutX="793.0" layoutY="83.0" prefHeight="26.0" prefWidth="197.0" />
+            <Label layoutX="13.0" layoutY="211.0" text="Gender :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="cmbReligion" layoutX="359.0" layoutY="203.0" prefHeight="26.0" prefWidth="246.0" />
+            <Label layoutX="284.0" layoutY="211.0" text="Religion :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="640.0" layoutY="211.0" text="Contact :-">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="cmbContact" layoutX="738.0" layoutY="208.0" prefHeight="26.0" prefWidth="248.0" />
+            <Button layoutX="450.0" layoutY="319.0" mnemonicParsing="false" onAction="#editOnAction" prefHeight="60.0" prefWidth="247.0" style="-fx-background-color: #00007f; -fx-background-radius: 20;" text="Edit" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="720.0" layoutY="319.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="60.0" prefWidth="247.0" style="-fx-background-color: #ff5500; -fx-background-radius: 20;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator layoutX="205.0" layoutY="31.0" prefHeight="0.0" prefWidth="759.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

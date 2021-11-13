@@ -1,0 +1,60 @@
+
+E
+java:S3740!"/Provide the parametrized type for this generic.(¤Éã¨
+E
+java:S3740""/Provide the parametrized type for this generic.(œÛÓï
+E
+java:S3740&"/Provide the parametrized type for this generic.(ï±ø’
+J
+java:S3740'"/Provide the parametrized type for this generic.(œŒ¢øÿÿÿÿ
+E
+java:S3740("/Provide the parametrized type for this generic.(ÏÒ„
+E
+java:S3740)"/Provide the parametrized type for this generic.(ë¸ŞÆ
+J
+java:S3740*"/Provide the parametrized type for this generic.(Ã¼€±ûÿÿÿÿ
+E
+java:S3740+"/Provide the parametrized type for this generic.(•âØ
+G
+java:S1172["2Remove this unused method parameter "actionEvent".(è¦… 
+C
+java:S1602†",Remove useless curly braces around statement(ï¯‡ª
+N
+java:S1172‹"2Remove this unused method parameter "actionEvent".(»õÆúÿÿÿÿ
+M
+java:S1128"+Remove this unused import 'Model.Students'.(ê†˜ÿÿÿÿÿ8Ãèİ”¾/
+P
+java:S1128
+".Remove this unused import 'View.TM.StudentTM'.(ğÕßÿÿÿÿÿ8Åèİ”¾/
+S
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8Ëûí¿/
+
+java:S1319„"€The type of the "allTeachersSubjectTMS" object should be an interface such as "List" rather than the implementation "ArrayList".(–¥ç‹úÿÿÿÿ
+k	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÉ¿Ïüÿÿÿÿ
+m
+java:S1104!"WMake cmbTeachers a static final constant or non-public and provide accessors if needed.(¤Éã¨
+m
+java:S1104""WMake cmbSubjects a static final constant or non-public and provide accessors if needed.(œÛÓï
+|
+java:S1104#"fMake addSubjectToTeacherContext a static final constant or non-public and provide accessors if needed.(³–¸¹
+l
+java:S1104$"VMake lblTeacher a static final constant or non-public and provide accessors if needed.(ˆÑ„
+k
+java:S1104%"VMake lblSubject a static final constant or non-public and provide accessors if needed.(ğıŞh
+v
+java:S1104&"`Make tblAllTeacherSubject a static final constant or non-public and provide accessors if needed.(ï±ø’
+s
+java:S1104'"XMake colTeacherID a static final constant or non-public and provide accessors if needed.(œŒ¢øÿÿÿÿ
+q
+java:S1104("[Make colTeachersName a static final constant or non-public and provide accessors if needed.(ÏÒ„
+n
+java:S1104)"XMake colSubjectID a static final constant or non-public and provide accessors if needed.(ë¸ŞÆ
+u
+java:S1104*"ZMake colSubjectName a static final constant or non-public and provide accessors if needed.(Ã¼€±ûÿÿÿÿ
+r
+java:S1104+"\Make colSubjectMedium a static final constant or non-public and provide accessors if needed.(•âØ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î
+j
+java:S2095q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ôˆ‹şÿÿÿÿ
+j
+java:S2095{"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŸéıŸıÿÿÿÿ

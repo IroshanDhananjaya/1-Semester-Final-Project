@@ -1,0 +1,8 @@
+
+
+java:S1319"rThe type of the "details" object should be an interface such as "List" rather than the implementation "ArrayList".(Ş±§Y8Á‹¬ßÀ/
+
+java:S1319c"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷Õ×Ç8‹ã“âÀ/
+
+java:S1319g"rThe type of the "details" object should be an interface such as "List" rather than the implementation "ArrayList".(­İÁ8‹ã“âÀ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“

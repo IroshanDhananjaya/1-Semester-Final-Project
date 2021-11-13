@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk15on-1.641">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/Lib/bcprov-jdk15on-1.64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/castor-core-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/castor-xml-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-beanutils-1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-collections4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/controlsfx-8.40.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/ecj-3.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/itext-2.1.7.js8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jackson-annotations-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jackson-core-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jackson-databind-2.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jasperreports-6.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jfoenix-8.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jfoenix-8.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Lib/jfreechart-1.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

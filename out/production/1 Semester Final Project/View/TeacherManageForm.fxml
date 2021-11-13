@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TeacherManagementContext" prefHeight="586.0" prefWidth="1048.0" style="-fx-background-color: linear-gradient(to right bottom, #494c49, #717574, #9ea1a2, #cecfd0, #ffffff);;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeacherManageFormController">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="106.0" prefHeight="469.0" prefWidth="1012.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <TableView fx:id="tblTeacher" layoutX="21.0" layoutY="62.0" prefHeight="395.0" prefWidth="972.0" styleClass="table-view1">
+              <columns>
+                <TableColumn fx:id="colID" prefWidth="91.0" text="ID" />
+                <TableColumn fx:id="colName" prefWidth="160.0" text="Name" />
+                  <TableColumn fx:id="colAddress" prefWidth="146.0" text="Address" />
+                  <TableColumn fx:id="colGender" prefWidth="208.66668701171875" text="Gender" />
+                  <TableColumn fx:id="colReligion" prefWidth="171.0" text="Religion" />
+                  <TableColumn fx:id="colContact" prefWidth="192.0" text="Contact" />
+              </columns>
+            </TableView>
+            <Label layoutX="31.0" layoutY="14.0" text="All Teachers">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="25.0" layoutY="14.0" text="Teacher Manage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="520.0" layoutY="38.0" mnemonicParsing="false" onAction="#addNewTeacherOnAction" prefHeight="47.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(to right, #000000, #1d1c1c, #343131, #4d4748, #675f5f);; -fx-background-radius: 30;" text="Add New Teacher" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="697.0" layoutY="38.0" mnemonicParsing="false" onAction="#TeacherDetailsOnAction" prefHeight="47.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(to right, #000000, #1d1c1c, #343131, #4d4748, #675f5f);; -fx-background-radius: 30;" text="Teacher Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="870.0" layoutY="38.0" mnemonicParsing="false" onAction="#addSubjectOnAction" prefHeight="47.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(to right, #000000, #1d1c1c, #343131, #4d4748, #675f5f);; -fx-background-radius: 30;" text="Add Subject" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
